@@ -112,7 +112,7 @@
             android:textColor="#FF979292"
             android:textSize="18sp" />
 
-        <android.support.v7.widget.AppCompatButton
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button8"
             style="@android:style/Widget.Button"
             android:layout_width="250dp"

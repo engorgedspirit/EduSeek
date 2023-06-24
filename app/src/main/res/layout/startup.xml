@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,21 +7,18 @@
     android:background="#2A2B35"
     tools:context=".MainActivity" >
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="299dp"
-        android:layout_height="268dp"
-        android:layout_marginTop="188dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="283dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginBottom="320dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="612dp"
         android:gravity="center"
         android:text="EduSeek"
         android:textColor="#FFFFFF"
@@ -33,25 +30,42 @@
         app:layout_constraintStart_toStartOf="@+id/imageView" />
 
     <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="299dp"
+        android:layout_height="268dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="389dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="411dp"
+        android:layout_height="496dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
         android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/background_intro"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="216dp" />
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button2"
         style="@android:style/Widget.Button"
         android:layout_width="match_parent"
         android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="160dp"
+        android:layout_marginBottom="169dp"
         android:background="@drawable/background_button"
         android:text="Get Started"
         android:textColor="#ffffff"
@@ -67,9 +81,11 @@
         style="@android:style/Widget.Button"
         android:layout_width="match_parent"
         android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
         android:layout_marginStart="32dp"
         android:layout_marginTop="400dp"
         android:layout_marginEnd="32dp"
+        android:layout_marginBottom="68dp"
         android:background="@drawable/background_button"
         android:text="I have an account"
         android:textColor="#ffffff"
@@ -80,4 +96,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView6" />
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
