@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "564836705901",
+    "project_id": "edufind-7bcad",
+    "storage_bucket": "edufind-7bcad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564836705901:android:d20d0da606e41a46708164",
+        "android_client_info": {
+          "package_name": "com.example.dashbrd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564836705901-f6m40evno54v90ls3resjfjq178ken91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZZaRwG2n3vYFYU5WdisvahH6IdL46_wM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564836705901-f6m40evno54v90ls3resjfjq178ken91.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564836705901:android:202c0d27147f2e39708164",
+        "android_client_info": {
+          "package_name": "com.example.loginpage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564836705901-f6m40evno54v90ls3resjfjq178ken91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZZaRwG2n3vYFYU5WdisvahH6IdL46_wM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564836705901-f6m40evno54v90ls3resjfjq178ken91.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

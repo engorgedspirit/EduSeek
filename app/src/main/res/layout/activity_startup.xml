@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2A2B35"
+    tools:context=".StartupActivity" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EduSeek"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+
+        android:textSize="40sp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rootRL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/background_intro"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Signup"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="106dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginEnd="105dp"
+            android:background="@drawable/background_button"
+            android:text="Let's Get Started" />
+
+        <Button
+            android:id="@+id/Login"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="102dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginEnd="109dp"
+            android:background="@drawable/background_button"
+            android:text="I have an account" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="281dp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="-7dp"
+            android:layout_weight="10"
+            app:srcCompat="@drawable/logo" />
+
+    </RelativeLayout>
+
+</LinearLayout>
