@@ -30,20 +30,20 @@
             android:textColor="@color/lavender"
             android:textSize="20sp"
             android:layout_toEndOf="@+id/recImage"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="15dp"
             android:layout_marginStart="20dp"
             />
         <TextView
-            android:layout_width="80dp"
+            android:layout_width="100dp"
             android:layout_height="30dp"
             android:id="@+id/recAccrNaac"
-            android:text="Language"
+            android:text="NAAC accr."
             android:textColor="@color/lavender"
             android:textSize="16sp"
             android:textAlignment="center"
             android:layout_toEndOf="@+id/recName"
             android:layout_marginTop="20dp"
-            android:layout_marginStart="90dp"
+            android:layout_marginStart="60dp"
             />
         <TextView
             android:layout_width="140dp"
@@ -54,30 +54,24 @@
             android:textSize="8sp"
             android:layout_toEndOf="@+id/recImage"
             android:layout_below="@+id/recAccrNaac"
-            android:maxLines="0"
-            android:layout_marginTop="20dp"
+            android:maxLines="8"
+            android:layout_marginTop="10dp"
             android:layout_marginStart="20dp"
             />
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:id="@+id/recMsal"/>-->
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:id="@+id/recHsal"/>-->
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:id="@+id/recBPlcaed"/>-->
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:id="@+id/recAccrNaac"/>-->
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:id="@+id/recRankNirf"/>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recMsal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recBPlcaed"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recRankNirf"/>
 
 
     </RelativeLayout>

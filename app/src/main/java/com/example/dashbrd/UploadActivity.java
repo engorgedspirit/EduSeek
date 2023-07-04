@@ -27,7 +27,7 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
-public class UploadActivity extends AppCompatActivity {
+public class  UploadActivity extends AppCompatActivity {
     ImageView uploadImage;
     Button saveButton;
     EditText clgName,medianSalary,highestSalary,batchPlaced,accrNAAC,rankNIRF;

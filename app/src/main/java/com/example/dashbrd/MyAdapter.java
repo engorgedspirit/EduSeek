@@ -56,7 +56,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyViewHolder> {
                 intent.putExtra("NAACAcc",dataList.get(holder.getAdapterPosition()).getAccrNAAC());
                 intent.putExtra("HSal",dataList.get(holder.getAdapterPosition()).getHighestSalary());
 
-
                 context.startActivity(intent);
             }
         });

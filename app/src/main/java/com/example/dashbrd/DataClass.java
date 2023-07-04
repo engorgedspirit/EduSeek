@@ -7,6 +7,7 @@ public class DataClass {
     private String batchPlaced;
     private String accrNAAC;
     private String rankNIRF;
+    private String clgImage;
 
     public String getClgName() {
         return clgName;
@@ -35,8 +36,6 @@ public class DataClass {
     public String getClgImage() {
         return clgImage;
     }
-
-    private String clgImage;
 
     public DataClass(String clgName, String medianSalary, String highestSalary, String batchPlaced, String accrNAAC, String rankNIRF, String clgImage) {
         this.clgName = clgName;

@@ -24,17 +24,6 @@
         android:src="@drawable/uploadimg"
         android:scaleType="fitXY"/>
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:padding="20dp"
-        android:text="Description"
-        android:layout_gravity="center"
-        android:id="@+id/detailDesc"
-        android:textSize="18sp"
-        android:textColor="@color/lavender"/>
-
-    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -43,7 +32,7 @@
         android:layout_gravity="center"
         android:textSize="14sp"
         android:textColor="@color/lavender"
-        android:id="@+id/recMsal"/>
+        android:id="@+id/detailMsal"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -54,7 +43,7 @@
         android:textSize="14sp"
         android:textColor="@color/lavender"
 
-        android:id="@+id/recHsal"/>
+        android:id="@+id/detailHsal"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -64,7 +53,7 @@
         android:layout_gravity="center"
         android:textSize="14sp"
         android:textColor="@color/lavender"
-        android:id="@+id/recBPlcaed"/>
+        android:id="@+id/detBP"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -74,7 +63,7 @@
         android:layout_gravity="center"
         android:textSize="14sp"
         android:textColor="@color/lavender"
-        android:id="@+id/recAccrNaac"/>
+        android:id="@+id/detNAAC"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -84,6 +73,16 @@
         android:layout_gravity="center"
         android:textSize="14sp"
         android:textColor="@color/lavender"
-        android:id="@+id/recRankNirf"/>
+        android:id="@+id/detNIRF"/>
 
 </LinearLayout>
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:padding="20dp"-->
+    <!--        android:text="Description"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:id="@+id/detailDesc"-->
+    <!--        android:textSize="18sp"-->
+    <!--        android:textColor="@color/lavender"/>-->
