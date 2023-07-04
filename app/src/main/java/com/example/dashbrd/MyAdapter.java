@@ -84,6 +84,7 @@ class MyViewHolder extends RecyclerView.ViewHolder{
         recbatchPlaced=itemView.findViewById(R.id.recBPlcaed);
         recAccrNAAC=itemView.findViewById(R.id.recAccrNaac );
         recRankNIRF=itemView.findViewById(R.id.recRankNirf);
+        recCard=itemView.findViewById(R.id.recCard);
 
     }
 }
