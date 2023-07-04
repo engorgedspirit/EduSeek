@@ -9,6 +9,7 @@ public class DataClass {
     private String rankNIRF;
     private String clgImage;
 
+
     public String getClgName() {
         return clgName;
     }

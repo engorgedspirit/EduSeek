@@ -2,7 +2,10 @@ package com.example.dashbrd;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -11,7 +14,7 @@ import com.bumptech.glide.Glide;
 public class DetailActivity extends AppCompatActivity {
 
     TextView detailRankNIRF,detailTitle,detailMsal,detailHsal,detailBplaced,detailNAACAccr;
-    ImageView detailImage;
+    ImageView detailImage,shareBT;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +27,7 @@ public class DetailActivity extends AppCompatActivity {
         detailHsal=findViewById(R.id.detailHsal);
         detailBplaced=findViewById(R.id.detBP);
         detailNAACAccr=findViewById(R.id.detNAAC);
+        shareBT=findViewById(R.id.sharebt);
 
         Bundle bundle=getIntent().getExtras();
         if(bundle!=null){
@@ -35,6 +39,23 @@ public class DetailActivity extends AppCompatActivity {
             detailHsal.setText(bundle.getString("HSal"));
             Glide.with(this).load(bundle.getString("Image")).into(detailImage);
         }
+        shareBT.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Create an intent with the ACTION_SEND action
+                Intent shareIntent = new Intent(Intent.ACTION_SEND);
+
+                // Set the MIME type of the content to share (e.g., image/jpeg for JPEG images)
+                shareIntent.setType("image/jpeg");
+
+                // Set the URI of the image to share (replace "imageUri" with the actual URI of your image)
+                Uri imageUri = Uri.parse("https://firebasestorage.googleapis.com/v0/b/edufind-7bcad.appspot.com/o/Android%20Images%2F1000030291?alt=media&token=46847c37-bdf1-4011-933f-09e14b3747e2"); // Obtain the URI of your image
+                shareIntent.putExtra(Intent.EXTRA_STREAM, imageUri);
+
+                // Start the share activity
+                startActivity(Intent.createChooser(shareIntent, "Share Image"));
+            }
+        });
 
     }
 }

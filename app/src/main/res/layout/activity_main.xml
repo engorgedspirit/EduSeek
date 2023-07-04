@@ -18,8 +18,8 @@
         app:searchHintIcon="@null"
         app:queryHint="Search..."
         android:focusable="false"
-        app:closeIcon="@drawable/baseline_add_24"
-        app:searchIcon="@drawable/baseline_add_24"
+        app:closeIcon="@drawable/baseline_clear_24"
+        app:searchIcon="@drawable/baseline_search_24"
         android:background="@drawable/lavender_border"/>
 
     <androidx.recyclerview.widget.RecyclerView
