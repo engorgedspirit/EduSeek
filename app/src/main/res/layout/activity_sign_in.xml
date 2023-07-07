@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2A2B35"
+    android:background="#2a2b32"
     android:orientation="vertical"
     tools:context=".SignInActivity">
 
@@ -21,8 +21,8 @@
         android:layout_marginTop="80dp"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Email:"
-        android:textColor="#979292"
+        android:text="Email :"
+        android:textColor="#d1d5db"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -47,8 +47,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:layout_marginLeft="45dp"
-        android:text="Password:"
-        android:textColor="#979292"
+        android:text="Password :"
+        android:textColor="#d1d5db"
         android:textSize="16sp"
         android:textStyle="bold" />
 

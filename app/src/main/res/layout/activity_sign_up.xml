@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#2A2B35"
+    android:background="#2a2b32"
     tools:context=".SignUpActivity">
 
 
@@ -22,8 +22,8 @@
         android:layout_height="24dp"
         android:layout_marginLeft="45dp"
         android:layout_marginTop="70sp"
-        android:text="Name"
-        android:textColor="#979292"
+        android:text="Name :"
+        android:textColor="#d1d5db"
         android:textSize="16sp"/>
     <EditText
         android:id="@+id/editTextTextPersonName3"
@@ -43,8 +43,8 @@
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Email"
-        android:textColor="#FF979292"
+        android:text="Email :"
+        android:textColor="#d1d5db"
         android:textSize="16sp"
         android:layout_marginLeft="45dp"
 
@@ -69,8 +69,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="45dp"
-        android:text="Password"
-        android:textColor="#FF979292"
+        android:text="Password :"
+        android:textColor="#d1d5db"
         android:textSize="16sp"
         />
 
@@ -93,8 +93,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="45dp"
-        android:text="Confirm Password"
-        android:textColor="#FF979292"
+        android:text="Confirm Password :"
+        android:textColor="#d1d5db"
         android:textSize="16sp"
         />
 

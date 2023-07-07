@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -14,10 +16,14 @@ import com.bumptech.glide.Glide;
 public class DetailActivity extends AppCompatActivity {
 
     TextView detailRankNIRF,detailTitle,detailMsal,detailHsal,detailBplaced,detailNAACAccr;
-    ImageView detailImage,shareBT;
+    ImageView detailImage,shareBT,detailBack;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getSupportActionBar().hide();
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_detail);
 
         detailRankNIRF=findViewById(R.id.detNIRF);
@@ -28,6 +34,10 @@ public class DetailActivity extends AppCompatActivity {
         detailBplaced=findViewById(R.id.detBP);
         detailNAACAccr=findViewById(R.id.detNAAC);
         shareBT=findViewById(R.id.sharebt);
+        detailBack=findViewById(R.id.detailBack);
+        detailBack.setOnClickListener((v -> {
+            startActivity(new Intent(this,MainActivity.class));
+        }));
 
         Bundle bundle=getIntent().getExtras();
         if(bundle!=null){
